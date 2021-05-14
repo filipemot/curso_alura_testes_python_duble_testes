@@ -1,3 +1,8 @@
+import logging
+from urllib.error import HTTPError
+from urllib.request import urlopen
+
+
 def consultar_livros(autor):
     dados = preparar_dados_para_requisicao(autor)
     url = obter_url("http://buscador", dados)
@@ -11,4 +16,10 @@ def obter_url(url, dados):
     pass
 
 def executar_requisicao(url):
-    pass
+    try:
+        with urlopen(url, timeout=10)as resposta:
+            resultado = resposta.read().decode("utf-8")
+    except HTTPError as e:
+        logging.exception("Ao Acessar '%s': '%s'" % (url, e))
+    else:
+        return resultado
