@@ -13,3 +13,8 @@
 - Como implementar Stub com a biblioteca unittest.mock
 - Como testar quando exceções são levantadas
 - Como testar quando quando exceções foram "logadas"
+- Que existe um dublê do tipo Spy e que captura as saídas indiretas para serem usadas na verificação do caso de teste.
+- Como usar o dublê Spy para verificar que exceções foram levantadas ou registradas
+- Como usar o dublê Spy para verificar valores dos parâmetros da função substituída
+- Como implementar nosso próprio Spy sem usar a biblioteca unittest.mock
+- Como implementar Spy com a biblioteca unittest.mock
