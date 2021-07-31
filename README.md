@@ -18,3 +18,7 @@
 - Como usar o dublê Spy para verificar valores dos parâmetros da função substituída
 - Como implementar nosso próprio Spy sem usar a biblioteca unittest.mock
 - Como implementar Spy com a biblioteca unittest.mock
+- Que existe um dublê do tipo Mock que serve ao mesmo tempo para programar comportamento esperado e capturar as saídas indiretas para serem usados na verificação do caso de teste
+- Como usar o dublê Mock para verificar as chamadas das funções que substituiu nos casos de teste e para programar o resultado das mesmas
+- Como implementar nosso próprio Mock, sem usar a biblioteca unittest.mock
+- Como implementar Mock com a biblioteca unittest.mock
