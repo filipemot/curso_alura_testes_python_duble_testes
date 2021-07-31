@@ -22,3 +22,8 @@
 - Como usar o dublê Mock para verificar as chamadas das funções que substituiu nos casos de teste e para programar o resultado das mesmas
 - Como implementar nosso próprio Mock, sem usar a biblioteca unittest.mock
 - Como implementar Mock com a biblioteca unittest.mock
+- Que existe um dublê do tipo Fake e que é uma implementação simplificada de uma dependência da unidade sob teste
+- Como usar o dublê Fake para simular uma operação no banco de dados sem ter o efeito colateral nele
+- Como implementar Fake, sem usar a biblioteca unittest.mock
+- Como implementar Fake com a biblioteca unittest.mock
+- Alguns pontos de atenção ao usar os dublês de testes
